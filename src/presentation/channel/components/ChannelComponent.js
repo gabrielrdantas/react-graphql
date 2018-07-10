@@ -40,7 +40,7 @@ return (
           );
         }
         if (error) {
-          return <h1>ERROR</h1>;
+          return <h1 className='error'>ERROR</h1>;
         }
 
         let nowTimeInMilliseconds = (new Date().getHours() * 60 * 60 * 1000) + (new Date().getMinutes() * 60 * 1000);
