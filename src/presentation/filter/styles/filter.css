@@ -1,0 +1,24 @@
+.filter {
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    z-index: 2;
+}
+
+.filter form{
+    display: none;
+}
+
+.filter.active {
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 19px;
+}
+
+.filter.active form{ 
+    display: block;
+}
+
+.filter.active .form-group  {
+    margin-top: 15px;
+}

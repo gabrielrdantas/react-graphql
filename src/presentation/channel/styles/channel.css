@@ -1,0 +1,59 @@
+.loading img{
+    width: 48px;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    margin-left: -24px;
+    left: 50%;
+}
+
+.channel-router h2{
+    text-align: center;
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.channel-router h2 img {
+    width: 42.7px;
+    margin: 0 10px 0 0;
+}
+
+.channel-router table {
+    width: calc(100% - 20px);
+    margin: 0 0 0px 10px;
+}
+
+.channel-router table thead tr {
+    background: #ccc;
+}
+
+.channel-router tbody tr {
+    background: #C0C0C0;
+}
+
+.channel-router tbody tr:nth-child(even) {
+    opacity: .9;
+}
+
+.channel-router tbody tr.actual td{
+    color: #222;
+    text-shadow: 0 0px 0px #333;
+}
+
+.channel-router td,
+ .channel-router th{
+    color: #333; 
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+.channel-router td{ 
+    color: #fff; 
+    text-shadow: 0 1px 1px #333;
+}
+
+.channel-router td:nth-child(2),
+.channel-router th:nth-child(2) { 
+    width: 40%;
+}
