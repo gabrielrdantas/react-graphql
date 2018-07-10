@@ -7,7 +7,7 @@ export default class RouterSwitchComponent extends React.Component {
         return (
            <div>
                 <Switch>
-                    <Route path="/channel/:channelId" exact={true} component={HomeRouterComponent} />
+                    <Route path="/:channelId" exact={true} component={HomeRouterComponent} />
                 </Switch>
            </div>
        );
